@@ -154,12 +154,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CornerDetectorFAST.cpp" />
     <ClCompile Include="CV_Algorithms.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Resources\Input\building.jpg" />
     <Image Include="Resources\Input\house.jpg" />
     <Image Include="Resources\Input\room.jpg" />
+    <Image Include="Resources\Input\room2.png" />
     <Image Include="Resources\Input\Test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CornerDetectorFAST.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
