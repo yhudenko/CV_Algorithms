@@ -4,6 +4,7 @@
 CornerDetectorFAST::CornerDetectorFAST(const std::string path)
 {
     inputImage = cv::imread(path, cv::IMREAD_GRAYSCALE);
+    if (inputImage.empty()) std::cerr << "Error: Could not read the image." << std::endl;
 }
 
 CornerDetectorFAST::~CornerDetectorFAST()
