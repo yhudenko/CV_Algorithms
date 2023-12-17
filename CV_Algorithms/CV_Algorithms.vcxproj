@@ -156,6 +156,7 @@
   <ItemGroup>
     <ClCompile Include="CornerDetectorFAST.cpp" />
     <ClCompile Include="CV_Algorithms.cpp" />
+    <ClCompile Include="KLTTracker.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\Input\building.jpg" />
@@ -166,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CornerDetectorFAST.h" />
+    <ClInclude Include="KLTTracker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

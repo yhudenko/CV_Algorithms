@@ -39,7 +39,7 @@ public:
 private:
 	bool fastCheck(int& x, int& y, int& threshold);
 	bool fullCheck(int& x, int& y, int& threshold);
-	void pointCheck(int x, int y, int& threshold, uchar& centralIntensity, BrightnessCounter& counter);
+	int pointCheck(int x, int y, int& threshold, uchar& centralIntensity, BrightnessCounter& counter);
 
 	cv::Mat inputImage;
 	cv::Mat outputImage;

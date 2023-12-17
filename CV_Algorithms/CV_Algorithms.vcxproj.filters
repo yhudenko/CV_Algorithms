@@ -21,6 +21,9 @@
     <ClCompile Include="CornerDetectorFAST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="KLTTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Resources\Input\Test.png">
@@ -41,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CornerDetectorFAST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KLTTracker.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
